@@ -28,6 +28,13 @@ by running:
 python3 setup.py install --prefix /usr
 ```
 
+The plugin can also be installed from copr:
+
+```
+dnf copr enable dshea/dnf-plugin-txgraph
+dnf install python3-dnf-plugin-txgraph
+```
+
 To run the plugin locally, you will need to override dnf's pluginpath setting.
 
 ```
